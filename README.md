@@ -1,1 +1,2 @@
 # sen-exercises
+This  repo is for educational purposes in the module *Software Engineering* of the practice-integrated Bachelor studies *Software Engineering* at Hochschule Bielefeld, Campus Gütersloh.
