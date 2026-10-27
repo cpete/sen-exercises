@@ -1,0 +1,19 @@
+{
+  "name": "softwaredesign-block1-loesung",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Musterlösung nach Block 1: modularisiert, aber noch ohne Dependency Injection",
+  "scripts": {
+    "test": "vitest run",
+    "test:demo": "vitest run -c vitest.demo.config.ts",
+    "typecheck": "tsc --noEmit",
+    "start": "tsx src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
