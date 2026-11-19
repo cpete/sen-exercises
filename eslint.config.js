@@ -2,6 +2,7 @@
 import eslint from "@eslint/js";
 import tseslint from "typescript-eslint";
 import globals from "globals";
+import eslintConfigPrettier from "eslint-config-prettier/flat";
 
 export default tseslint.config(
   { ignores: ["node_modules", "dist", "coverage"] },
@@ -20,4 +21,5 @@ export default tseslint.config(
     files: ["**/*.js"],
     ...tseslint.configs.disableTypeChecked,
   },
+  eslintConfigPrettier,
 );
